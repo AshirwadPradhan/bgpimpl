@@ -1,0 +1,29 @@
+---
+ # ASNo : [edge_latency, edge_capacity, SDX/AS_number]
+edge_list:
+  - 1: [5, 10, 11]
+  - 2: [4, 10, 11, 22]
+  - 8: [3, 10, 11, 22]
+  - 3: [8, 15, 22]
+  - 7: [6, 15, 22, 33]
+  - 4: [6, 20, 22, 33]
+  - 6: [4, 20, 33]
+  - 5: [5, 20, 4, 6]
+
+---
+ # SDXNo: - ASNo: [port]
+port_map:
+1:
+  1: veth10
+  2: veth20
+  8: veth80
+2:
+  3: veth30
+  7: veth70
+  2: weth20
+  8: weth80
+  4: weth40
+3:
+  4: veth40
+  7: weth70
+  6: veth60

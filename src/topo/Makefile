@@ -139,6 +139,7 @@ route:
 	sudo ip link set veth21 up
 	sudo ovs-vsctl add-port br2 veth21
 	sudo ovs-vsctl add-port sx1 veth20
+	# ---
 	# sudo ip link add weth20 type veth peer name weth21
 	# sudo ip link set weth20 up
 	# sudo ip link set weth21 up
@@ -151,6 +152,7 @@ route:
 	sudo ip link set veth81 up
 	sudo ovs-vsctl add-port br8 veth81
 	sudo ovs-vsctl add-port sx1 veth80
+	# ---
 	# sudo ip link add weth80 type veth peer name weth81
 	# sudo ip link set weth80 up
 	# sudo ip link set weth81 up
@@ -170,6 +172,7 @@ route:
 	sudo ip link set veth71 up
 	sudo ovs-vsctl add-port br7 veth71
 	sudo ovs-vsctl add-port sx2 veth70
+	# ---
 	# sudo ip link add weth70 type veth peer name weth71
 	# sudo ip link set weth70 up
 	# sudo ip link set weth71 up
@@ -182,6 +185,7 @@ route:
 	sudo ip link set veth41 up
 	sudo ovs-vsctl add-port br4 veth41
 	sudo ovs-vsctl add-port sx3 veth40
+	# ---
 	# sudo ip link add weth40 type veth peer name weth41
 	# sudo ip link set weth40 up
 	# sudo ip link set weth41 up
